@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <input
-        placeholder="Title"
+        placeholder="Title YO!"
         value={title}
         onChange={(e) => setPost({ ...post, title: e.target.value })}
       />
